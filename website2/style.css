@@ -1,0 +1,294 @@
+html {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+
+.header{
+height: 20em;
+display: flex;
+flex-direction: row;
+background: #4C516D;
+}
+
+.leftheader {
+    width: 45em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1em;
+}
+.left-top {
+
+    width: 15em;
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 9em;
+
+}
+
+.logowebsite {
+    font-size: 1em;
+    margin-bottom: 3em;
+}
+
+
+.left-bottom {
+    border: .3em soli;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 11em;
+
+}
+
+.greetings {
+display: flex;
+width: 7em;
+font-size: 1.5em;
+margin-right: 6em;
+
+}
+
+
+.description {
+    height: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+    margin-top: .4em;
+
+}
+
+.signup {
+border: 0 solid blue;
+border-radius: .5em;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #012169;
+height: 2em;
+width: 8em;
+color:  white;
+transition: .5s;
+
+}
+
+.signup:hover {
+    background-color: #0076CE;
+    color: white;
+    transform: translateY(-10%);
+}
+
+.rightheader {
+    width: 70em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3em;
+    
+}
+
+
+.right-top {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    flex-direction: row;
+    column-gap: 6em;
+    margin-left: 12em;
+    width: 45em;
+    color: black;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    flex-direction: row;
+    row-gap: 3em;
+}
+
+
+.rightbottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 58em;
+    height: 13em;
+    gap: 25px;
+    margin-left: em;
+}
+
+img {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 3em;
+    border: .2em solid black;
+    margin-left: 1.em;
+    transition: .5s;
+}
+
+.webbody {
+    height: 51em;
+}
+
+.top {
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+
+}
+
+.greetings-2 {
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.description-2  {
+    height: 15em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3em;
+    margin-bottom: 2em;
+}
+
+.box-1, .box-2, .box-3, .box-4 {
+    height: 11em;
+    width: 10em;
+
+}
+
+.box-top {
+    border: .2em solid greenyellow;
+    background:  black;
+    height: 9em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+
+
+
+.topmiddle {
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    transition: .5s;
+
+}
+
+.topmiddle:hover {
+    background: gray;
+    box-shadow: 0em 0em 2em black;
+}
+
+.topmiddle-box {
+    height: 10em;
+    width: 30em;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+
+.quote {
+    font-family: cursive;
+}
+
+.quote-2 {
+    align-self: flex-end;
+    margin-left: 20em;
+    font-family: cursive;
+}
+
+
+.bottom {
+    height: 15em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.bottom-box {
+    border-radius: 2em;
+    height: 10em;
+    width: 40em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: #4C516D;
+
+}
+
+
+.inside-box {
+    height: 3em;
+    width: 25em;
+    margin-left: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #4C516D;
+
+}
+
+.description-3 {
+    color: white;
+}
+
+
+.sign-up {
+    align-self: flex-end;
+    background: #4C516D;
+    border: .3em solid white;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+    height: 3em;
+    width: 8em;
+    color: white;
+}
+
+
+
+.footer {
+    height: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
